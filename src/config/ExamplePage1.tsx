@@ -1,11 +1,12 @@
 // Libraries
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from "react";
 
 // Types
-import { PluginConfigPageProps, AppPluginMeta } from '@grafana/data';
-import { ExampleAppSettings } from 'types';
+import { PluginConfigPageProps, AppPluginMeta } from "@grafana/data";
+import { ExampleAppSettings } from "types";
 
-interface Props extends PluginConfigPageProps<AppPluginMeta<ExampleAppSettings>> {}
+interface Props
+  extends PluginConfigPageProps<AppPluginMeta<ExampleAppSettings>> {}
 
 export class ExamplePage1 extends PureComponent<Props> {
   constructor(props: Props) {

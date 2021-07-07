@@ -1,10 +1,10 @@
-import { AppRootProps, NavModelItem } from '@grafana/data';
-import { PageDefinition } from 'pages';
-import { useMemo } from 'react';
-import { APP_TITLE, APP_SUBTITLE } from './consts';
+import { AppRootProps, NavModelItem } from "@grafana/data";
+import { PageDefinition } from "pages";
+import { useMemo } from "react";
+import { APP_TITLE, APP_SUBTITLE } from "./consts";
 
 type Args = {
-  meta: AppRootProps['meta'];
+  meta: AppRootProps["meta"];
   pages: PageDefinition[];
   path: string;
   tab: string;
